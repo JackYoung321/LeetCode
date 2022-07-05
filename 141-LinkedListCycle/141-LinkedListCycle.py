@@ -18,4 +18,6 @@ class Solution:
                 return True
         return False # False will be returned by default as if we can't continue iterating through (using fast as fast
                     #iterates through twice as fast as slow, therefore would reach the end of the list first)
-            
+
+#Solved with O(n) (linear) time complexity as dependant on the amount of n elements in the list
+#Solved using O(1) space complexity (Constant memory) as the method used for checking the values does not result in an increase of space use with more elements in the list.
